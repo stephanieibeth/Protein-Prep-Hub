@@ -1,0 +1,54 @@
+/* DEVELOPER: Stephanie Manchame, IS117-###, Fall 2025 */
+
+/* simple site-wide styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Make footer sticky */
+html, body {
+    height: 100%;
+}
+.page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
+/* hero / home header */
+.hero {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.05);
+}
+
+/* simple placeholder box for images */
+.img-placeholder {
+    width: 100%;
+    height: 200px;
+    background: #e9ecef;
+    border: 2px dashed #adb5bd;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* smaller placeholder for cards */
+.img-placeholder-sm {
+    height: 140px;
+    font-size: 0.95rem;
+}
+
+/* footer look */
+footer.footer {
+    margin-top: 2rem;
+}

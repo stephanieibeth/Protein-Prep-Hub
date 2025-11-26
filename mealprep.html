@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Stephanie Manchame, IS117-005, Fall 2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protein Prep Hub | Meal Prep</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="page-wrapper container-fluid">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="images/proteinlogoo.png" alt="Protein Prep Hub logo"
+                 width="40" height="40" class="me-2">
+            Protein Prep Hub
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="recipes.html">Recipes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="mealprep.html">Meal Prep</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="tips.html"
+                       id="tipsDrop"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Tips &amp; Tricks
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tipsDrop">
+                        <li><h6 class="dropdown-header">Tips &amp; Tricks</h6></li>
+                        <li><a class="dropdown-item" href="proteinguide.html">Protein Guide</a></li>
+                        <li><a class="dropdown-item" href="beginner.html">Beginner Starter Kit</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <h1>Meal Prep</h1>
+        <p>How to plan a meal prep that works for your goals.</p>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <h3>1. Pick your main protein</h3>
+                <p>Chicken, turkey, tofu, salmon, beans, etc. Keep it simple.</p>
+
+                <h3>2. Add easy sides</h3>
+                <p>Rice, potatoes, pasta, frozen veggies, salad kits.</p>
+
+                <h3>3. Portion for your week</h3>
+                <p>Decide how many meals you need before you start cooking.</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="images/mealprepcontainers.jpg"
+                     alt="Meal prep containers with high-protein meals"
+                     class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <h3>Storage &amp; Reheat Guide</h3>
+        <ul>
+            <li>Fridge: 3–4 days for most cooked proteins.</li>
+            <li>Freezer: up to 2–3 months (label containers).</li>
+            <li>Reheat: microwave with a splash of water to keep moisture.</li>
+        </ul>
+
+        <div class="alert alert-info mt-3">
+            <strong>Time Saver:</strong> Cook once, eat 3–4 times.
+        </div>
+        <div class="alert alert-warning">
+            <strong>Budget Tip:</strong> Buy protein in bulk and freeze portions.
+        </div>
+    </main>
+
+    <footer class="footer page-footer font-small bg-dark text-white-50 py-3">
+        <div class="container">
+            <span class="text-muted">
+                &copy; 2025 Stephanie Manchame ~ Terms of Service ~ Privacy Policy
+            </span>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

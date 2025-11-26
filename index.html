@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Stephanie Manchame, IS117-005, Fall 2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protein Prep Hub | Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="page-wrapper container-fluid">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="images/proteinlogoo.png" alt="Protein Prep Hub logo"
+                 width="40" height="40" class="me-2">
+            Protein Prep Hub
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="recipes.html">Recipes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="mealprep.html">Meal Prep</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="tips.html"
+                       id="tipsDrop"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Tips &amp; Tricks
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tipsDrop">
+                        <li><h6 class="dropdown-header">Tips &amp; Tricks</h6></li>
+                        <li><a class="dropdown-item" href="proteinguide.html">Protein Guide</a></li>
+                        <li><a class="dropdown-item" href="beginner.html">Beginner Starter Kit</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- HERO SECTION -->
+        <section class="hero my-4">
+            <div class="row align-items-center g-4">
+
+                <div class="col-md-6">
+                    <h1 class="display-6">Eat more protein without the stress.</h1>
+                    <p class="lead">
+                        Simple recipes, quick prep ideas, and beginner-friendly guides to help you hit your goals.
+                    </p>
+                    <a class="btn btn-primary" href="recipes.html">Browse Recipes</a>
+                    <a class="btn btn-outline-secondary ms-2" href="beginner.html">Beginner Kit</a>
+                </div>
+
+                <div class="col-md-6">
+                    <!-- Hero image spot (you’ll add the real file later) -->
+                    <img src="images/high protein meal prep.jpg" alt="High protein meal prep"
+                         class="img-fluid rounded shadow-sm">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CARDS SECTION -->
+        <section class="mt-4">
+            <h2 class="mb-3">Start Here</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/high protein recipes.jpg" class="card-img-top img-fluid"
+                             alt="High protein recipes">
+                        <div class="card-body">
+                            <h5 class="card-title">High-Protein Recipes</h5>
+                            <p class="card-text">Meals that are fast, filling, and easy to track.</p>
+                            <a href="recipes.html" class="btn btn-sm btn-primary">Go to Recipes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/mealprepcontainers.jpg" class="card-img-top img-fluid"
+                             alt="Meal prep containers">
+                        <div class="card-body">
+                            <h5 class="card-title">Meal Prep Made Simple</h5>
+                            <p class="card-text">Plan your week in under an hour with templates.</p>
+                            <a href="mealprep.html" class="btn btn-sm btn-primary">Prep Tips</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/proteinsources.jpg" class="card-img-top img-fluid"
+                             alt="Protein food sources">
+                        <div class="card-body">
+                            <h5 class="card-title">Protein Guide</h5>
+                            <p class="card-text">How much you need and easy ways to get it.</p>
+                            <a href="proteinguide.html" class="btn btn-sm btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer page-footer font-small bg-dark text-white-50 py-3 mt-4">
+        <div class="container">
+            <span class="text-muted">
+                &copy; 2025 Stephanie Manchame ~ Terms of Service ~ Privacy Policy
+            </span>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

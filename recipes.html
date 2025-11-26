@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Stephanie Manchame, IS117-005, Fall 2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protein Prep Hub | Recipes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Page-specific styles -->
+    <style>
+        /* Make all recipe card images the same size */
+        .card-img-top {
+            height: 200px;      /* change this to 220px/250px if you want them taller */
+            object-fit: cover;  /* keeps aspect ratio, crops edges instead of stretching */
+        }
+    </style>
+</head>
+
+<body>
+<div class="page-wrapper container-fluid">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="images/proteinlogoo.png" alt="Protein Prep Hub logo"
+                 width="40" height="40" class="me-2">
+            Protein Prep Hub
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="recipes.html">Recipes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="mealprep.html">Meal Prep</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="tips.html"
+                       id="tipsDrop"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Tips &amp; Tricks
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tipsDrop">
+                        <li><h6 class="dropdown-header">Tips &amp; Tricks</h6></li>
+                        <li><a class="dropdown-item" href="proteinguide.html">Protein Guide</a></li>
+                        <li><a class="dropdown-item" href="beginner.html">Beginner Starter Kit</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="container my-4">
+        <h1 class="mb-3">Recipes</h1>
+        <p class="mb-4">High-protein meals you can cook fast.</p>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Recipe 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/Creamy%20Honey%20Butter%20Steak%20&%20Potatoes.jpeg"
+                         alt="Creamy honey butter steak and potatoes"
+                         class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Creamy Honey Butter Steak &amp; Potatoes</h5>
+                        <p class="card-text">
+                            Protein/serving: 54g / 5 servings <br>
+                            Time: 55–60 mins
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Source: <a href="https://www.instagram.com/p/DQ7O7Pkk3y0/" target="_blank">Credit Link</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/Creamy%20Mushroom%20Steak%20&%20Mash%20Potatoes.jpeg"
+                         alt="Creamy mushroom steak with mashed potatoes"
+                         class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Creamy Mushroom Steak &amp; Mash Potatoes</h5>
+                        <p class="card-text">
+                            Protein/serving: 65g / 5 servings <br>
+                            Time: 50–60 mins
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Source: <a href="https://www.instagram.com/p/DPmXprOAukC/" target="_blank">Credit Link</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/Crispy%20Tandoori%20Chicken%20&%20Chips.jpeg"
+                         alt="Crispy tandoori chicken with chips"
+                         class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Crispy Tandoori Chicken &amp; Chips</h5>
+                        <p class="card-text">
+                            Protein/serving: 52g / 5 servings <br>
+                            Time: 60–65 mins
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Source: <a href="https://www.instagram.com/p/DOog5v5ApCf/" target="_blank">Credit Link</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/Cajun%20Honey%20Butter%20Chicken%20&%20Potatoes.jpeg"
+                         alt="Cajun honey butter chicken and potatoes"
+                         class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Cajun Honey Butter Chicken &amp; Potatoes</h5>
+                        <p class="card-text">
+                            Protein/serving: 50g / 5 servings <br>
+                            Time: 45–60 mins
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Source: <a href="https://www.instagram.com/p/DKc0O6xo1MS/" target="_blank">Credit Link</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe 5 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/Philly%20Cheesesteak%20Rice%20Bowls.jpeg"
+                         alt="Philly cheesesteak rice bowls"
+                         class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Philly Cheesesteak Rice Bowls</h5>
+                        <p class="card-text">
+                            Protein/serving: 67g / 5 servings <br>
+                            Time: 55–60 mins
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Source: <a href="https://www.instagram.com/p/DJxJDnaowEB/" target="_blank">Credit Link</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe 6 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/Grilled%20Chicken%20Alfredo%20Pasta.jpeg"
+                         alt="Grilled chicken alfredo pasta"
+                         class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Grilled Chicken Alfredo Pasta</h5>
+                        <p class="card-text">
+                            Protein/serving: 59g / 4 servings <br>
+                            Time: 35–55 mins
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Source: <a href="https://www.instagram.com/p/DEvFEWkItlZ/" target="_blank">Credit Link</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer page-footer font-small bg-dark text-white-50 py-3">
+        <div class="container">
+            <span class="text-muted">
+                &copy; 2025 Stephanie Manchame ~ Terms of Service ~ Privacy Policy
+            </span>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
